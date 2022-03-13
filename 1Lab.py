@@ -39,10 +39,6 @@ def turn(vertexes):
 
 
 def drawPolygons(axes, vertexes, color):
-    """
-    Рисование многоугольника
-    """
-
     polygon_1 = matplotlib.patches.Polygon(vertexes,
                                            color=color)
     axes.add_patch(polygon_1)
